@@ -1,6 +1,6 @@
 (function(){
-	$('body').scroll(function(){
-		console.log(111)
+
+	$(window).scroll(function(){
 		console.log($(window).scrollTop())
 	})
 
