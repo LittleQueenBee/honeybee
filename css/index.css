@@ -1,0 +1,190 @@
+.banner{
+	width:100%;
+	padding-top:.54rem;
+	height:2.44rem;
+	background-color: #f4cd20;
+	text-align: center;
+
+}
+.banner img{
+	height:.56rem;
+	margin:0 auto;
+
+}
+.banner .slogan{
+	font-size:10px;
+	margin-top:.22rem;
+	line-height:.1rem;
+	color:#796610;
+}
+.banner .search{
+	height:.66rem;
+	width:6.84rem;
+	margin-top:.44rem;
+	border-radius: .33rem;
+	border:none;
+	text-indent: .63rem;
+	line-height:.66rem;
+	background:#fff url(../images/icon_search.png) .24rem .2rem no-repeat;
+	background-size: .26rem;
+}
+
+.cates{
+	width:7.5rem;
+	height:.68rem;
+	background-color:#fafafa;
+	line-height: .68rem;
+	text-align: center;
+}
+.cates .cs{
+	display: -webkit-flex;
+	display:flex;
+}
+.cates .cs li{
+	flex-grow: 1;
+	-webkit-flex-grow:1;
+}
+.cates .cs li a{
+	position:relative;
+	display:inline-block;
+	color:#000;
+	font-size:13px;
+}
+.cates .cs li a:after{
+	content:'';
+	position:absolute;
+	top:.27rem;
+	right:-.2rem;
+	width:0;
+	height:0;
+	border-left:3px solid #bfbfbf;
+	border-bottom:3px solid #bfbfbf;
+	border-top:3px solid rgba(0,0,0,0) !important;
+	border-right:3px solid rgba(0,0,0,0)  !important;
+	-ms-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+
+}
+.cates .cs li a.on:after{
+	top:.32rem;
+	border-color:#000;
+	-ms-transform:rotate(135deg);
+	-moz-transform:rotate(135deg);
+	-o-transform:rotate(135deg);
+	-webkit-transform:rotate(135deg);
+	transform:rotate(135deg);
+}
+.cates .cs li a.sorter:after{
+	position:absolute;
+	top:.24rem;
+	right:-.3rem;
+	width:.2rem;
+	height:.2rem;
+	border:none !important;
+	background: url(../images/icon_sorter.png) center no-repeat;
+	background-size: contain;
+	-ms-transform:rotate(0);
+	-moz-transform:rotate(0);
+	-o-transform:rotate(0);
+	-webkit-transform:rotate(0);
+	transform:rotate(0);
+}
+
+.c-list li{
+	height:2rem;
+	width:7.5rem;
+	padding:.2rem 0;
+	border-top:1px solid #efefef;
+}
+.c-list li .img{
+	height:1.6rem;
+	width:2.37rem;
+	background:center no-repeat;
+	background-size: cover;
+	border-radius: 3px;
+	margin-left:.14rem;
+	display:inline-block;
+	vertical-align: middle;
+}
+.c-list li .desc{
+	position:relative;
+	width:4.58rem;
+	padding-left:.2rem;
+	display:inline-block;
+	vertical-align: middle;
+}
+.c-list li .desc .name{
+	font-size:14px;
+	font-weight: bold;
+}
+.c-list li .desc .intro{
+	font-size:12px;
+	color:#8e8e8e;
+	margin-top:.1rem;
+}
+.c-list li .desc .attrs{
+	font-size:10px;
+	margin-top:.24rem;
+}
+.c-list li .desc .attrs span{
+	display:inline-block;
+	line-height:12px;
+	padding:0 4px;
+	border-radius: 12px;
+}
+.c-list li .desc .attrs span.rate{
+	background: #fffae5;
+	color:#f4cd20;
+}
+.c-list li .desc .attrs span.quota{
+	background: #fff1f3;
+	color:#fe1f3e;
+}
+
+.c-list li .desc .price{
+	position:absolute;
+	right:0;
+	bottom:.3rem;
+	color:#000;
+	font-size:10px;
+}
+.c-list li .desc .price span{
+	color:#fe1f3e;
+	font-size:15px;
+	font-weight: bold;
+}
+.process{
+	position:relative;
+	margin-top:.24rem;
+}
+.process .process-graph,.process .process-graph > div{
+	height:.06rem;
+	width:3.86rem;
+	background-color:#f1f1f1;
+	border-radius: .1rem;
+}
+.process .process-graph > div{
+	width:0;
+}
+.process .process-graph > div.process-graph-1{
+	background:url(../images/icon_process_1.png) center no-repeat;
+	background-size: cover;
+}
+.process .process-graph > div.process-graph-2{
+	background:url(../images/icon_process_2.png) center no-repeat;
+	background-size: cover;
+}
+.process .text{
+	position:absolute;
+	right:0;
+	bottom:-.1rem;
+	font-size:10px;
+	color:#969696;
+	display: inline-block;
+	padding-left:13px;
+	background: url(../images/icon_user.png) left center no-repeat;
+	background-size: 10px;
+}

@@ -1,0 +1,45 @@
+.nav{
+	position:fixed;
+	bottom:0;
+	display:flex;
+	display:-webkit-flex;
+	width:100%;
+	height:.9rem;
+	max-width:500px;
+	min-width:320px;
+	font-size:10px;
+	background-color:#fff;
+	border-top:1px solid #ebebeb;
+	z-index:50;
+}
+.nav a{
+	flex-grow: 1;
+	-webkit-flex-grow:1;
+	text-align: center;
+	line-height: 1.3rem;
+	background:50% 20% no-repeat;
+	background-size: .36rem;
+}
+.nav a.home{
+	background-image: url(../images/nav/home.png);
+}
+.nav a.home.on{
+	color:#231815;
+	background-image: url(../images/nav/home_on.png);
+}
+
+.nav a.find{
+	background-image: url(../images/nav/find.png);
+}
+.nav a.find.on{
+	color:#231815;
+	background-image: url(../images/nav/find_on.png);
+}
+
+.nav a.mine{
+	background-image: url(../images/nav/mine.png);
+}
+.nav a.mine.on{
+	color:#231815;
+	background-image: url(../images/nav/mine_on.png);
+}
