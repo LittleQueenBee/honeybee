@@ -1,0 +1,36 @@
+body{
+	background-color:#f3f6f7;
+	text-align: center;
+}
+.name{
+	color:#1d1d1d;
+	font-size: 16px;
+	margin-top:1.16rem;
+	letter-spacing: 2px;
+}
+.name span{
+	margin-left:10px;
+	letter-spacing: 0;
+}
+.tip{
+	color:#a9acb1;
+	font-size:12px;
+	margin-top:.25rem;
+}
+.ewm{
+	width:4.74rem;
+	height:4.74rem;
+	margin:0 auto;
+	margin-top:.42rem;
+	box-shadow: 3px 3px 30px rgba(0,0,0,.15);
+}
+.ewm img{
+	width:100%;
+	height:100%;
+}
+a.btn-primary{
+	margin-top:1.17rem;
+}
+a.btn-default{
+	margin-top:.3rem;
+}

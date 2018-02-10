@@ -1,0 +1,60 @@
+body{
+	margin-bottom:1rem;
+}
+.atl-container{
+	position:relative;
+	height:1.8rem;
+	width:6.74rem;
+	padding:.2rem 0;
+	margin-left:.38rem;
+	background-color:#fff;
+	font-size:11px;
+	border-bottom:1px solid #efefef;
+}
+.atl-container .title{
+	font-size:15px;
+	color:#000;
+}
+.atl-container .img{
+	width:2.5rem;
+	height:1.68rem;
+	background: center no-repeat;
+	background-size: cover;
+	border-radius: 3px;
+}
+.atl-container .info{
+	margin-top:.14rem;
+	color:#8e8e8e;
+}
+.atl-container .info .time{
+	float: right;
+	font-size:10px;
+}
+.atl-group .atl-container:not(:first-child) > div,
+.atl-group .atl-container:not(:first-child) > .title{
+	width:3.74rem;
+}
+.atl-group .atl-container:not(:first-child) .title{
+	margin-top:.12rem;
+}
+.atl-group .atl-container:not(:first-child) .img{
+	position:absolute;
+	right:0;
+	top:.24rem;
+	width:2.5rem;
+}
+.atl-group .atl-container:not(:first-child) .info{
+	position:absolute;
+	bottom:.48rem;
+}
+.atl-group .atl-container:first-child{
+	height:auto;
+}
+.atl-group .atl-container:first-child > div{
+	width:6.74rem;
+}
+.atl-group .atl-container:first-child .img{
+	width:6.74rem;
+	height:3.48rem;
+	margin-top:.24rem;
+}

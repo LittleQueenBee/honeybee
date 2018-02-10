@@ -1,3 +1,6 @@
+body{
+	margin-bottom:1rem;
+}
 .banner{
 	width:100%;
 	padding-top:.54rem;
@@ -28,8 +31,17 @@
 	background:#fff url(../images/icon_search.png) .24rem .2rem no-repeat;
 	background-size: .26rem;
 }
+.banner-img{
+	width:100%;
+	height: 3.16rem;
+}
+.banner-img img{
+	width:100%;
+	height:100%;
+}
 
 .cates{
+	position:relative;
 	width:7.5rem;
 	height:.68rem;
 	background-color:#fafafa;
@@ -119,6 +131,9 @@
 .c-list li .desc .name{
 	font-size:14px;
 	font-weight: bold;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
 }
 .c-list li .desc .intro{
 	font-size:12px;
@@ -187,4 +202,115 @@
 	padding-left:13px;
 	background: url(../images/icon_user.png) left center no-repeat;
 	background-size: 10px;
+}
+
+
+
+
+.f-list{
+	float:left;
+	width:1.96rem;
+	height:5.92rem;
+	background-color: #fafafa;
+}
+.s-list{
+	float:right;
+	width:5.54rem;
+	height:5.92rem;
+}
+.f-list li,.s-list li{
+	height:.74rem;
+	line-height:.74rem;
+	padding:0 .52rem;
+	text-align: left;
+}
+.f-list li.on,.s-list li.on{
+	color:#f4cd20;
+	background-color: #fff;
+}
+
+/** 分类 citys */
+.citys,.prices,.tags,.sorters{
+	position:absolute;
+	top:.68rem;
+	width:100%;
+	height:5.92rem;
+	background-color:#fff;
+	font-size:12px;
+	color:#000;
+	overflow: hidden;
+	z-index:10;
+	display:none;
+}
+.prices{
+	height:5.36rem;
+}
+.prices .f-list,.prices .s-list{
+	height:4.44rem;
+}
+.prices .cus-box{
+	height:.91rem;
+	line-height:.91rem;
+	border-top:1px solid #efefef;
+	color:#d3d3d3;
+	clear: both;
+}
+.prices .cus-box label{
+	padding-left:.24rem;
+	color:#000;
+}
+.prices .cus-box input[type="number"]{
+	width:1.4rem;
+	height:.61rem;
+	border:1px solid #f1f1f1;
+	border-radius: 3px;
+	text-align: center;
+	margin:0 .15rem;
+}
+.prices .cus-box a{
+	margin-left:.2rem;
+}
+
+.tags{
+	height:5.61rem;
+	text-align: left;
+}
+.tags .tag-wrapper{
+	padding:0 .15rem;
+}
+.tags .tag-box{
+	padding:0 .18rem;
+	padding:.15rem;
+	border-bottom:1px solid #ebebeb;
+}
+.tags .tag-box a.btn{
+	margin-right:.08rem;
+	margin-bottom:.15rem;
+	min-width:1.05rem;
+}
+.tags .tag-box a.btn.on{
+	border:1px solid #f4cd20;
+	color:#f4cd20;
+	background-color:#fffae5;
+}
+.tags .tag-box a.btn:nth-child(4n){
+	margin-right:0;
+}
+.tags a.btn.btn-primary{
+	margin-top:.22rem;	
+}
+
+.sorters{
+	height:auto;
+	padding-bottom:.3rem;
+	display:block;
+}
+.sorters li{
+	height:.89rem;
+	line-height:.89rem;
+	text-indent: .52rem;
+	text-align: left;
+}
+.sorters li.on{
+	color:#f4cd20;
 }
