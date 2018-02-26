@@ -1,0 +1,187 @@
+body{
+	background-color:#f3f6f7;
+	padding-bottom:1rem;
+}
+.gallery{
+	width:7.50rem;
+	height:4.24rem;
+}
+.gallery .gallery-item{
+	width:100%;
+	height:100%;
+	background:center no-repeat;
+	background-size: cover;
+}
+
+.intro{
+	background-color:#fff;
+	padding-bottom:.33rem;
+	text-align: center;
+}
+.intro .name{
+	padding:.3rem;
+	height:16px;
+	font-size:16px;
+	line-height: 16px;
+	text-align: center;
+}
+.intro .attr{
+	color:#a9acb1;
+	font-size:.2rem;
+	line-height:.2rem;
+	text-align: center;
+}
+.intro .attr span{
+	display:inline-block;
+	padding:.05rem;
+	background-color:#f2f5f7;
+}
+.intro .attr span:nth-child(2){
+	margin-left:.19rem;
+}
+
+.spec{
+	margin-top:.54rem;
+	width:7.5rem;
+}
+.spec ul{
+	text-align: center;
+	width:7.5rem;
+}
+.spec ul li{
+	width:2.45rem;
+	display: inline-block;
+	color:#434548;
+	font-size:12px;
+}
+.spec ul li .tip{
+	color:#a9acb1;
+	font-size:10px;
+	margin-top:.08rem;
+}
+.spec ul li .val{
+	color:#fe1f3e;
+	margin-top:.24rem;
+}
+.spec ul li .val span{
+	font-size:14px;
+	font-weight: bold;
+}
+.progress{
+	text-align: center;
+	width:100%;
+	padding-top:.53rem;
+	padding-bottom:.3rem;
+	border-top:1px solid #efefef;
+	background-color:#fff;
+}
+.progress .process{
+	width:7.08rem;
+	margin:0 auto;
+}
+.progress .process .text{
+	background:url(../images/icon_process_box_1.png) center no-repeat;
+	background-size: contain;
+	width:.7rem;
+	height:.32rem;
+	font-size:.18rem;
+	line-height:.32rem;
+	right:-.35rem;
+}
+.progress .warning{
+	display:inline-block;
+	height:.53rem;
+	width:2.63rem;
+	text-align: center;
+	color:#fff;
+	font-size:.12rem;
+	line-height: .53rem;
+	background:url(../images/icon_process_2.png) center no-repeat;
+	background-size: cover;
+	border-radius: .53rem;
+	margin:0 auto;
+	margin-top:.39rem;
+}
+
+.desc{
+	margin-top:.14rem;
+	width:100%;
+	background-color:#fff;
+}
+.desc ul{
+	width:100%;
+	overflow: hidden;
+	font-size:.24rem;
+}
+.desc ul li{
+	display: inline-block;
+	border-bottom:1px solid #efefef;
+	height:.87rem;
+	line-height:.87rem;
+}
+.desc ul li:last-child{
+	border-bottom:none;
+}
+.desc ul li:nth-child(2n+1){
+	float:left;
+	width:3.73rem;
+}
+.desc ul li:nth-child(2n+2){
+	float:right;
+	width:3.75rem;
+}
+.desc ul li:nth-child(n+7){
+	clear:both;
+	width:7.50rem;
+}
+.desc label{
+	display:inline-block;
+	width:1.8rem;
+	text-indent: .48rem;
+	color:#888c92;
+	overflow: hidden;
+}
+.desc .val{
+	display:inline-block;
+	overflow: hidden;
+}
+.desc .val .tip{
+	font-size:.2rem;
+	color:#a9acb1;
+}
+
+.toolbar{
+	position:fixed;
+	bottom:0;
+	background-color: #fff;
+	height:.89rem;
+	width:7.5rem;
+
+}
+.toolbar .btn.btn-primary{
+	float:right;
+	width:3.2rem;
+	height:.89rem;
+	line-height: .89rem;
+	border-radius: 0;
+	padding:0;
+	background-size:140% 100%;
+}
+.toolbar .btn.btn-primary.pay{
+	background-image: url(../images/icon_process_2.png);	
+}
+
+.toolbar a.collect{
+	width:1rem;
+	height:.89rem;
+	display:inline-block;
+	text-align: center;
+	background:url(../images/icon_collect.png) .32rem .19rem no-repeat;
+	background-size: .34rem;
+	font-size:.18rem;
+	color:#585c5f;
+	line-height:1.4rem;
+}
+.toolbar a.collect.on{
+	background-image: url(../images/icon_collect_on.png);
+}

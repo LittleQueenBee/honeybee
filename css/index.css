@@ -171,39 +171,9 @@ body{
 	font-size:15px;
 	font-weight: bold;
 }
-.process{
-	position:relative;
-	margin-top:.24rem;
-}
-.process .process-graph,.process .process-graph > div{
-	height:.06rem;
+.process .process-graph{
 	width:3.86rem;
-	background-color:#f1f1f1;
-	border-radius: .1rem;
 }
-.process .process-graph > div{
-	width:0;
-}
-.process .process-graph > div.process-graph-1{
-	background:url(../images/icon_process_1.png) center no-repeat;
-	background-size: cover;
-}
-.process .process-graph > div.process-graph-2{
-	background:url(../images/icon_process_2.png) center no-repeat;
-	background-size: cover;
-}
-.process .text{
-	position:absolute;
-	right:0;
-	bottom:-.1rem;
-	font-size:10px;
-	color:#969696;
-	display: inline-block;
-	padding-left:13px;
-	background: url(../images/icon_user.png) left center no-repeat;
-	background-size: 10px;
-}
-
 
 
 
